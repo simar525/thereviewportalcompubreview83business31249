@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/pub",
+      "destination": "/https://musiccitywebpros.store/"
+ },
+ {
+      "source": "/pub/(.*)",
+      "destination": "https://musiccitywebpros.store/$1"
+ }
+  ]
+}
